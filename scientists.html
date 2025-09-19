@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Вчені — Детальніше</title>
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:#041025;color:#eaf4ff;margin:0}
+    .container{width:min(1100px,94%);margin:0 auto;padding:1.1rem}
+    header{display:flex;justify-content:space-between;align-items:center;padding:.6rem 0}
+    a{text-decoration:none;color:#9fbcd9}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:1.2rem}
+    .bio{background:linear-gradient(180deg,#071226, rgba(10,18,30,.6));padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .bio img{width:100%;border-radius:8px;object-fit:cover}
+    .bio h2{margin:.4rem 0}
+    .facts{background:rgba(255,255,255,0.02);padding:.8rem;border-radius:10px;margin-top:.8rem;color:#bcd}
+    .link-list{display:flex;flex-direction:column;gap:.5rem;margin-top:.6rem}
+    .link-list a:hover{color: white; transition: 0.3s all ease-in-out}
+    footer{margin-top:1.6rem;color:#94a3b8}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div><a href="index.html">← Повернутися</a></div>
+      <div style="font-weight:600">Вчені — Детальні біографії</div>
+    </header>
+
+    <main class="grid">
+      <section>
+        <article id="turing" class="bio">
+          <h2>Алан Тюрінг (1912–1954)</h2>
+          <p>Британський математик, криптограф і теоретик обчислень. Обґрунтував поняття обчислюваності через модель «Тьюрінг-машини», запропонував тест для оцінки машинного мислення (згодом названий тестом Тьюрінга). Працював над розшифруванням Enigma під час Другої світової війни.</p>
+          <div class="facts">
+            <strong>Ключові досягнення:</strong>
+            <ul>
+              <li>Тьюрінг-машина — модель загального обчислення</li>
+              <li>Поняття алгоритму і обчислюваності</li>
+              <li>Праці з криптоаналізу в Bletchley Park</li>
+            </ul>
+            <div class="link-list"><a href="https://uk.wikipedia.org/wiki/Алан_Тюрінг">Вікіпедія</a> <a href="https://www.npg.org.uk/collections/search/portraitLarge/mw63680/Alan-Turing">Портрет (джерело зображення)</a></div>
+          </div>
+        </article>
+
+        <article id="mccarthy" style="margin-top:1rem" class="bio">
+          <h2>Джон Маккарті (1927–2011)</h2>
+          <p>Американський вчений, який ввів термін «штучний інтелект» (1955–56) і розробив мову Lisp (1958) — одну з перших мов, створених спеціально для задач штучного інтелекту.</p>
+          <div class="facts">
+            <strong>Ключові досягнення:</strong>
+            <ul>
+              <li>Ініціатор Dartmouth Conference — початок формального зародження AI</li>
+              <li>Створення мови Lisp</li>
+              <li>Дослідження в галузі планування, дедуктивних систем та логічного програмування</li>
+            </ul>
+            <div class="link-list"><a href="https://uk.wikipedia.org/wiki/Джон_Маккарті">Вікіпедія</a></div>
+          </div>
+        </article>
+
+        <article id="brooks" style="margin-top:1rem" class="bio">
+          <h2>Родні Брукс (нар. 1954)</h2>
+          <p>Видатний робототехнік, який просував підхід «поведінкових» роботів (behaviour-based robotics), став співзасновником iRobot (побутові роботи) та Rethink Robotics (промислові співробітничі роботи).</p>
+          <div class="facts">
+            <strong>Ключові досягнення:</strong>
+            <ul>
+              <li>Ідеї про декомпозицію поведінки роботів без централізованого планування</li>
+              <li>Практичні роботи: Roomba, промислові роботомани</li>
+              <li>Активний вплив на сучасні системи автономії</li>
+            </ul>
+            <div class="link-list"><a href="https://en.wikipedia.org/wiki/Rodney_Brooks">Wikipedia</a></div>
+          </div>
+        </article>
+
+        <article id="weiser" style="margin-top:1rem" class="bio">
+          <h2>Марк Вайзер (1952–1999)</h2>
+          <p>Часто вважається «батьком» ubiquitous computing — ідеї, що комп'ютери стануть вбудованими і практично невидимими в щоденному житті, що напряму корелює з концепцією інтернету речей і «розумних» пристроїв.</p>
+          <div class="facts">
+            <strong>Ключові ідеї:</strong>
+            <ul>
+              <li>«Невидимі» комп'ютери: технологія повинна допомагати не відволікаючи</li>
+              <li>Проекти Xerox PARC, ідейний фундамент майбутніх смарт-пристроїв</li>
+            </ul>
+            <div class="link-list"><a href="https://uk.wikipedia.org/wiki/Марк_Вайзер">Вікіпедія</a></div>
+          </div>
+        </article>
+      </section>
+
+      <aside>
+        <div style="position:sticky;top:1rem">
+          <div style="background:rgba(255,255,255,0.02);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h3 style="margin:0 0 .4rem">Ресурси</h3>
+            <p style="color:#9fbcd9;margin:0 0 .6rem">Посилання на додаткові матеріали та статті.</p>
+            <ul style="color:#bcd;line-height:1.6">
+              <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Штучний інтелект — огляд (Wikipedia)</a></li>
+              <li><a href="https://plato.stanford.edu/entries/artificial-intelligence/">Stanford Encyclopedia — AI</a></li>
+              <li><a href="https://www.britannica.com/technology/artificial-intelligence">Britannica — AI</a></li>
+            </ul>
+          </div>
+
+          <div style="margin-top:.8rem;background:rgba(255,255,255,0.02);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h4 style="margin:0 0 .5rem">Посилання на зображення</h4>
+            <p style="margin:0;color:#9fbcd9">Зображення, що використані на сайті — з відкритих джерел (галереї, матеріали університетів).</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="container"><p>© 2025 — Інформаційний сайт. Матеріали для освітніх цілей.</p></footer>
+  </div>
+  <script>
+    // Робимо всі зовнішні посилання відкриваними в новому вікні
+    document.querySelectorAll('a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && !href.endsWith('index.html') && !href.endsWith('scientists.html') && !href.endsWith('about.html')) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+    }
+    });
+    </script>
+</body>
+</html>
